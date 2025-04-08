@@ -1,0 +1,12 @@
+- name: Generate  Configs from Netbox data
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Pull device data from Netbox
+      script: ../scripts/get_netbox_data.py
+
+    - name: Generate configs for each device
+      template:
+        src: ../templates/base_configs.j2
+        dest: "../output/generated_configs/{{ inventory_hostname }}.cfg"

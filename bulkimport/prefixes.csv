@@ -1,0 +1,8 @@
+prefix,status,description
+172.16.12.0/27,active,VLAN10
+172.16.12.32/27,active,VLAN20
+172.16.12.64/27,active,VLAN30
+172.16.12.96/27,active,VLAN99
+172.16.12.128/27,active,VLAN100
+172.16.12.160/27,active,VLAN200
+172.16.12.192/27,active,VLAN300

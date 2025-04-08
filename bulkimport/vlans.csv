@@ -1,0 +1,9 @@
+vid,name,status
+10,CORE,active
+20,MGMT,active
+30,COMPUTE,active
+99,NATIVE,active
+100,R&D,active
+200,EMPLOYEE,active
+300,GUEST,active
+999,BLACKHOLE,active

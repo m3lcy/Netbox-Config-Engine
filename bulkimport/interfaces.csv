@@ -1,0 +1,168 @@
+device,name,type,enabled,description,mode
+access-sw-01,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
+access-sw-01,FastEthernet0/2,1000base-t,true,Access VLAN 20,access
+access-sw-01,FastEthernet0/3,1000base-t,true,Access VLAN 20,access
+access-sw-01,FastEthernet0/4,1000base-t,true,Access VLAN 20,access
+access-sw-01,FastEthernet0/5,1000base-t,true,Access VLAN 20,access
+access-sw-01,FastEthernet0/6,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/7,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/8,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/9,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/10,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/11,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/12,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/13,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/14,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/15,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/16,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/17,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/18,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/19,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/20,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/21,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/22,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/23,1000base-t,false,Unused Port,access
+access-sw-01,FastEthernet0/24,1000base-t,false,Unused Port,access
+access-sw-01,GigabitEthernet0/1,1000base-t,true,Trunk Interface,tagged
+access-sw-01,GigabitEthernet0/2,1000base-t,false,Unused Port,access
+access-sw-01,Vlan1,virtual,true,SW1 Management,access
+access-sw-02,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
+access-sw-02,FastEthernet0/2,1000base-t,true,Access VLAN 20,access
+access-sw-02,FastEthernet0/3,1000base-t,true,Access VLAN 20,access
+access-sw-02,FastEthernet0/4,1000base-t,true,Access VLAN 20,access
+access-sw-02,FastEthernet0/5,1000base-t,true,Access VLAN 20,access
+access-sw-02,FastEthernet0/6,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/7,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/8,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/9,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/10,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/11,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/12,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/13,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/14,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/15,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/16,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/17,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/18,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/19,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/20,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/21,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/22,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/23,1000base-t,false,Unused Port,access
+access-sw-02,FastEthernet0/24,1000base-t,false,Unused Port,access
+access-sw-02,GigabitEthernet0/1,1000base-t,true,Trunk interface,tagged
+access-sw-02,GigabitEthernet0/2,1000base-t,false,Unused Port,access
+access-sw-02,Vlan1,virtual,true,SW2 Management,tagged
+access-sw-03,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
+access-sw-03,FastEthernet0/2,1000base-t,true,Access VLAN 30,access
+access-sw-03,FastEthernet0/3,1000base-t,true,Access VLAN 30,access
+access-sw-03,FastEthernet0/4,1000base-t,true,Access VLAN 30,access
+access-sw-03,FastEthernet0/5,1000base-t,true,Access VLAN 30,access
+access-sw-03,FastEthernet0/6,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/7,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/8,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/9,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/10,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/11,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/12,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/13,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/14,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/15,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/16,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/17,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/18,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/19,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/20,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/21,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/22,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/23,1000base-t,false,Unused Port,access
+access-sw-03,FastEthernet0/24,1000base-t,false,Unused Port,access
+access-sw-03,GigabitEthernet0/1,1000base-t,true,Trunk interface,tagged
+access-sw-03,GigabitEthernet0/2,1000base-t,false,Unused Port,access
+access-sw-03,Vlan1,virtual,true,SW3 Management,tagged
+access-sw-04,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
+access-sw-04,FastEthernet0/2,1000base-t,true,Trunk Interface,tagged
+access-sw-04,FastEthernet0/3,1000base-t,true,Access VLAN 300,access
+access-sw-04,FastEthernet0/4,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/5,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/6,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/7,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/8,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/9,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/10,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/11,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/12,1000base-t,true,Access VLAN 200,access
+access-sw-04,FastEthernet0/13,1000base-t,true,Access VLAN 200,access
+access-sw-04,FastEthernet0/14,1000base-t,true,Access VLAN 200,access
+access-sw-04,FastEthernet0/15,1000base-t,true,Access VLAN 200,access
+access-sw-04,FastEthernet0/16,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/17,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/18,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/19,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/20,1000base-t,false,Unused Port,access
+access-sw-04,FastEthernet0/21,1000base-t,true,Access VLAN 100,access
+access-sw-04,FastEthernet0/22,1000base-t,true,Access VLAN 100,access
+access-sw-04,FastEthernet0/23,1000base-t,true,Access VLAN 100,access
+access-sw-04,FastEthernet0/24,1000base-t,true,Access VLAN 100,access
+access-sw-04,GigabitEthernet0/1,1000base-t,false,Unused Port,access
+access-sw-04,GigabitEthernet0/2,1000base-t,false,Unused Port,access
+access-sw-04,Vlan1,virtual,true,SW4 Management,tagged
+l3-sw-01,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
+l3-sw-01,FastEthernet0/2,1000base-t,true,Trunk Interface,tagged
+l3-sw-01,FastEthernet0/3,1000base-t,true,Trunk Interface,tagged
+l3-sw-01,FastEthernet0/4,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/5,1000base-t,false,Trunk Interface,tagged
+l3-sw-01,FastEthernet0/6,1000base-t,false,Trunk Interface,tagged
+l3-sw-01,FastEthernet0/7,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/8,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/9,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/10,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/11,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/12,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/13,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/14,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/15,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/16,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/17,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/18,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/19,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/20,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/21,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/22,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/23,1000base-t,false,Unused Port,access
+l3-sw-01,FastEthernet0/24,1000base-t,false,Unused Port,access
+l3-sw-01,GigabitEthernet0/1,1000base-t,true,Access Interface,access
+l3-sw-01,GigabitEthernet0/2,1000base-t,true,Trunk Interface,tagged
+l3-sw-01,Vlan1,virtual,true,DLS1 Management,tagged
+l3-sw-02,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
+l3-sw-02,FastEthernet0/2,1000base-t,true,Trunk Interface,tagged
+l3-sw-02,FastEthernet0/3,1000base-t,true,Trunk Interface,tagged
+l3-sw-02,FastEthernet0/4,1000base-t,true,Trunk Interface,tagged
+l3-sw-02,FastEthernet0/5,1000base-t,true,Trunk Interface,tagged
+l3-sw-02,FastEthernet0/6,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/7,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/8,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/9,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/10,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/11,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/12,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/13,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/14,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/15,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/16,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/17,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/18,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/19,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/20,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/21,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/22,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/23,1000base-t,false,Unused Port,access
+l3-sw-02,FastEthernet0/24,1000base-t,false,Unused Port,access
+l3-sw-02,GigabitEthernet0/1,1000base-t,true,Access Interface,access
+l3-sw-02,GigabitEthernet0/2,1000base-t,true,Trunk Interface,tagged
+l3-sw-02,Vlan1,virtual,true,DLS2 Management,tagged
+core-r1,GigabitEthernet0/0,1000base-t,true,Gigabit Interface,access
+core-r1,GigabitEthernet0/1,1000base-t,true,Gigabit Interface,access 
+core-r1,Serial0/0/0,t3,true,Serial Interface,access
+core-r1,Serial0/0/1,t3,false,Unused Port,access
+core-r1,Vlan1,virtual,true,R1 Management,tagged
