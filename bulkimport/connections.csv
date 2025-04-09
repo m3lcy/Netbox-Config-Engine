@@ -1,0 +1,2 @@
+side_a_device,side_a_type,side_a_name,side_b_device,side_b_type,side_b_name,type,status
+core-r1,dcim.interface,GigabitEthernet0/0,l3-sw-01,dcim.interface,GigabitEthernet0/1,cat6,connected
