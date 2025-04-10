@@ -1,0 +1,44 @@
+hostname {{ device.name }}
+
+{% for vlan in devices.vlans %}
+    vlan {{ vlan.vlan_id }} name {{ vlan.vlan_name }}
+{% endfor %}
+
+{% for ip in device.ip_addresses %}
+    ip address {{ ip.address }} - {{ ip.description }}
+{% endfor %}
+
+{% for range in device.ip_ranges %}
+    range {{ range.start_address }} to {{ range.end_address }} - {{ range.description }}
+{% endfor %}
+
+{% for prefix in device.prefixes %}
+    prefix {{ prefix.prefix }} with details {{ prefix.prefix_details }}
+{% endfor %}
+
+{% for interface in device.interfaces %}
+interface {{ interface.name }}
+    description {{ interface.description | default('No description') }}
+    ip address {{ interface.ip | default('unassigned') }}
+    {% if interface.enabled == 'true' %}
+    no shutdown
+    {% else %}
+    shutdown
+    {% endif %}
+
+    {% if interface.mode == 'access' %}
+    switchport mode access 
+    switchport access vlan {{ interface.vlan | default('None') }}
+    {% elif interface.mode == 'tagged' %}
+    switchport mode trunk
+    switchport trunk allowed vlan {{ interface.vlan }}
+    {% endif %}
+
+    {% for cable in device.cables %}
+        {% if cable.side_a_device == device.name and cable.side_a_name == interface.name %}
+            cable type {{ cable.type }} from {{ cable.side_a_device }} {{ cable.side_a_name }} to {{ cable.side_b_device }} {{ cable.side_b_name }}
+        {% elif cable.side_b_device == device.name and cable.side_b_name == interface.name %}
+            cable type {{ cable.type }} from {{ cable.side_b_device }} {{ cable.side_b_name }} to {{ cable.side_a_device }} {{ cable.side_a_name }}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
