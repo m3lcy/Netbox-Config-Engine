@@ -3,6 +3,28 @@ Access Switch,Cisco,Cisco Catalyst 9300,active,corp-nyc-01,access-sw-01
 Access Switch,Cisco,Cisco Catalyst 9300,active,corp-nyc-01,access-sw-02
 Access Switch,Cisco,Cisco Catalyst 9300,active,corp-nyc-01,access-sw-03
 Access Switch,Cisco,Cisco Catalyst 9300,active,corp-nyc-01,access-sw-04
-L3 Switch,Cisco,Cisco Catalyst 9500,active,corp-nyc-01,l3-swtich-01
-L3 Switch,Cisco,Cisco Catalyst 9500,active,corp-nyc-01,l3-switch-02
+Access Point,Cisco,Aironet 2802I,active,corp-nyc-01,ap-01
+L3 Switch,Cisco,Cisco Catalyst 9500,active,corp-nyc-01,l3-sw-01
+L3 Switch,Cisco,Cisco Catalyst 9500,active,corp-nyc-01,l3-sw-02
 Core Router,Cisco,Cisco ISR 4331,active,corp-nyc-01,core-r1
+Core Router,Cisco,Cisco ISR 4331,active,corp-sf-01,core-r2
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-01
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-02
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-03
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-04
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-05
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-06
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-07
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-08
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-09
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-10
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-11
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-12
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-13
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-14
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-15
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-16
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-17
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-18
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-19
+Workstation,Dell,OptiPlex 7090,active,corp-nyc-01,pc-20

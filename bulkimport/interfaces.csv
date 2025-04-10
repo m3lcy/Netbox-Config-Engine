@@ -1,9 +1,31 @@
 device,name,type,enabled,description,mode
+pc-01,FastEthernet0/0,1000base-t,true,Access VLAN 10,access
+pc-02,FastEthernet0/0,1000base-t,true,Access VLAN 10,access
+pc-03,FastEthernet0/0,1000base-t,true,Access VLAN 10,access
+pc-04,FastEthernet0/0,1000base-t,true,Access VLAN 10,access
+pc-05,FastEthernet0/0,1000base-t,true,Access VLAN 20,access
+pc-06,FastEthernet0/0,1000base-t,true,Access VLAN 20,access
+pc-07,FastEthernet0/0,1000base-t,true,Access VLAN 20,access
+pc-08,FastEthernet0/0,1000base-t,true,Access VLAN 20,access
+pc-09,FastEthernet0/0,1000base-t,true,Access VLAN 30,access
+pc-10,FastEthernet0/0,1000base-t,true,Access VLAN 30,access
+pc-11,FastEthernet0/0,1000base-t,true,Access VLAN 30,access
+pc-12,FastEthernet0/0,1000base-t,true,Access VLAN 30,access
+pc-13,FastEthernet0/0,1000base-t,true,Access VLAN 300,access
+pc-14,FastEthernet0/0,1000base-t,true,Access VLAN 200,access
+pc-15,FastEthernet0/0,1000base-t,true,Access VLAN 200,access
+pc-16,FastEthernet0/0,1000base-t,true,Access VLAN 200,access
+pc-17,FastEthernet0/0,1000base-t,true,Access VLAN 200,access
+pc-18,FastEthernet0/0,1000base-t,true,Access VLAN 100,access
+pc-19,FastEthernet0/0,1000base-t,true,Access VLAN 100,access
+pc-20,FastEthernet0/0,1000base-t,true,Access VLAN 100,access
+pc-21,FastEthernet0/0,1000base-t,true,Access VLAN 100,access
+ap-01,Port0,1000base-t,true,Access VLAN 300,access
 access-sw-01,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
-access-sw-01,FastEthernet0/2,1000base-t,true,Access VLAN 20,access
-access-sw-01,FastEthernet0/3,1000base-t,true,Access VLAN 20,access
-access-sw-01,FastEthernet0/4,1000base-t,true,Access VLAN 20,access
-access-sw-01,FastEthernet0/5,1000base-t,true,Access VLAN 20,access
+access-sw-01,FastEthernet0/2,1000base-t,true,Access VLAN 10,access
+access-sw-01,FastEthernet0/3,1000base-t,true,Access VLAN 10,access
+access-sw-01,FastEthernet0/4,1000base-t,true,Access VLAN 10,access
+access-sw-01,FastEthernet0/5,1000base-t,true,Access VLAN 10,access
 access-sw-01,FastEthernet0/6,1000base-t,false,Unused Port,access
 access-sw-01,FastEthernet0/7,1000base-t,false,Unused Port,access
 access-sw-01,FastEthernet0/8,1000base-t,false,Unused Port,access
@@ -166,3 +188,4 @@ core-r1,GigabitEthernet0/1,1000base-t,true,Gigabit Interface,access
 core-r1,Serial0/0/0,t3,true,Serial Interface,access
 core-r1,Serial0/0/1,t3,false,Unused Port,access
 core-r1,Vlan1,virtual,true,R1 Management,tagged
+core-r2,Serial0/0/1,t3,true,Serial Interface,access
