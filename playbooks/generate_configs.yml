@@ -1,0 +1,30 @@
+- name: Generate Configs from NetBox data
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Ensure output directory exists
+      file:
+        path: "{{ playbook_dir }}/../output/generated_configs"
+        state: directory
+        recurse: yes
+
+    - name: Pull device data from NetBox
+      command: python3 "{{ playbook_dir }}/../scripts/pull_data.py"
+      register: netbox_data
+
+    - name: Parse NetBox JSON output
+      set_fact:
+        netbox_devices: "{{ netbox_data.stdout | from_json }}"
+
+    - name: Debug netbox_devices structure
+      debug:
+        var: netbox_devices
+
+    - name: Generate configs for each device
+      template:
+        src: "{{ playbook_dir }}/../templates/base_config.j2"
+        dest: "{{ playbook_dir }}/../output/generated_configs/{{ devices.name }}.cfg"
+      loop: "{{ netbox_devices }}"
+      loop_control:
+        loop_var: devices

@@ -1,22 +1,22 @@
-hostname {{ device.name }}
+hostname {{ devices.name }}
 
 {% for vlan in devices.vlans %}
     vlan {{ vlan.vlan_id }} name {{ vlan.vlan_name }}
 {% endfor %}
 
-{% for ip in device.ip_addresses %}
+{% for ip in devices.ip_addresses %}
     ip address {{ ip.address }} - {{ ip.description }}
 {% endfor %}
 
-{% for range in device.ip_ranges %}
+{% for range in devices.ip_ranges %}
     range {{ range.start_address }} to {{ range.end_address }} - {{ range.description }}
 {% endfor %}
 
-{% for prefix in device.prefixes %}
+{% for prefix in devices.prefixes %}
     prefix {{ prefix.prefix }} with details {{ prefix.prefix_details }}
 {% endfor %}
 
-{% for interface in device.interfaces %}
+{% for interface in devices.interfaces %}
 interface {{ interface.name }}
     description {{ interface.description | default('No description') }}
     ip address {{ interface.ip | default('unassigned') }}
@@ -34,11 +34,11 @@ interface {{ interface.name }}
     switchport trunk allowed vlan {{ interface.vlan }}
     {% endif %}
 
-    {% for cable in device.cables %}
-        {% if cable.side_a_device == device.name and cable.side_a_name == interface.name %}
-            cable type {{ cable.type }} from {{ cable.side_a_device }} {{ cable.side_a_name }} to {{ cable.side_b_device }} {{ cable.side_b_name }}
-        {% elif cable.side_b_device == device.name and cable.side_b_name == interface.name %}
-            cable type {{ cable.type }} from {{ cable.side_b_device }} {{ cable.side_b_name }} to {{ cable.side_a_device }} {{ cable.side_a_name }}
+    {% for cable in devices.cables %}
+        {% if cable.side_a_devices == devices.name and cable.side_a_name == interface.name %}
+            cable type {{ cable.type }} from {{ cable.side_a_devices }} {{ cable.side_a_name }} to {{ cable.side_b_devices }} {{ cable.side_b_name }}
+        {% elif cable.side_b_devices == devices.name and cable.side_b_name == interface.name %}
+            cable type {{ cable.type }} from {{ cable.side_b_devices }} {{ cable.side_b_name }} to {{ cable.side_a_devices }} {{ cable.side_a_name }}
         {% endif %}
     {% endfor %}
 {% endfor %}
