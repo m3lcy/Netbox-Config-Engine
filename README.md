@@ -58,13 +58,13 @@ This project facilitates configuration consistency, reduces manual intervention,
 ##
 **Screenshots**
 
-Devices
+**Devices**
 ![Screenshot](netbox_images/devices.png)
 
-Cables
+**Cables**
 ![cables](netbox_images/cables.png)
 
-Interfaces
+**Interfaces**
 ![Screenshot](netbox_images/interfaces.png)
 
 ##
