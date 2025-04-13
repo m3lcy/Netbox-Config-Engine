@@ -156,6 +156,13 @@ l3-sw-01,FastEthernet0/24,1000base-t,false,Unused Port,access
 l3-sw-01,GigabitEthernet0/1,1000base-t,true,Access Interface,access
 l3-sw-01,GigabitEthernet0/2,1000base-t,true,Trunk Interface,tagged
 l3-sw-01,Vlan1,virtual,true,DLS1 Management,tagged
+l3-sw-01,Vlan10,virtual,true,VLAN10 SVI,tagged
+l3-sw-01,Vlan20,virtual,true,VLAN20 SVI,tagged
+l3-sw-01,Vlan30,virtual,true,VLAN30 SVI,tagged
+l3-sw-01,Vlan99,virtual,true,VLAN99 SVI,tagged
+l3-sw-01,Vlan100,virtual,true,VLAN100 SVI,tagged
+l3-sw-01,Vlan200,virtual,true,VLAN200 SVI,tagged
+l3-sw-01,Vlan300,virtual,true,VLAN300 SVI,tagged
 l3-sw-02,FastEthernet0/1,1000base-t,true,Trunk Interface,tagged
 l3-sw-02,FastEthernet0/2,1000base-t,true,Trunk Interface,tagged
 l3-sw-02,FastEthernet0/3,1000base-t,true,Trunk Interface,tagged
@@ -183,6 +190,13 @@ l3-sw-02,FastEthernet0/24,1000base-t,false,Unused Port,access
 l3-sw-02,GigabitEthernet0/1,1000base-t,true,Access Interface,access
 l3-sw-02,GigabitEthernet0/2,1000base-t,true,Trunk Interface,tagged
 l3-sw-02,Vlan1,virtual,true,DLS2 Management,tagged
+l3-sw-02,Vlan10,virtual,true,VLAN10 SVI,tagged
+l3-sw-02,Vlan20,virtual,true,VLAN20 SVI,tagged
+l3-sw-02,Vlan30,virtual,true,VLAN30 SVI,tagged
+l3-sw-02,Vlan99,virtual,true,VLAN99 SVI,tagged
+l3-sw-02,Vlan100,virtual,true,VLAN100 SVI,tagged
+l3-sw-02,Vlan200,virtual,true,VLAN200 SVI,tagged
+l3-sw-02,Vlan300,virtual,true,VLAN300 SVI,tagged
 core-r1,GigabitEthernet0/0,1000base-t,true,Gigabit Interface,access
 core-r1,GigabitEthernet0/1,1000base-t,true,Gigabit Interface,access 
 core-r1,Serial0/0/0,t3,true,Serial Interface,access
