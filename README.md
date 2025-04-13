@@ -7,7 +7,7 @@ The Netbox Configuration Engine builds on concepts and workflows from a previous
 The goal is to showcase how infrastructure teams can centralize their network data, reduce human error, and enforce consistent, scalable config generation across multiple devices and sites all within a fully local and cloud environment.
 
 ##
-Netbox Configuration Engine is a simulation environment designed to model a modern enterprise network automation workflow using NetBox as a Source of Truth (SoT). The project leverages **Ansible**, **Jinja2**, and **Python** to dynamically generate network device configurations based on structured IPAM and topology data stored in NetBox, thereby reflecting infrastructure-as-code (IaC) principles used in production environments.
+Netbox Configuration Engine is a simulation environment designed to model a modern enterprise network automation workflow using NetBox as a **Source of Truth (SoT)**. The project leverages **Ansible**, **Jinja2**, and **Python** to dynamically generate network device configurations based on structured IPAM and topology data stored in NetBox, thereby reflecting **Infrastructure-as-Code (IaC)** principles used in production environments.
 
 This project facilitates configuration consistency, reduces manual intervention, and provides a reproducible, API-driven foundation for managing network infrastructure all within a fully containerized and mock-driven simulation.
 
