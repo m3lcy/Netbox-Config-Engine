@@ -69,7 +69,9 @@ Interfaces
 
 ##
 **TechStack**
+
 **Netbox**, **Docker**, **Git**, **Python**, **Jinja2**, **Ansible**
+
 
 ```
                                         &
