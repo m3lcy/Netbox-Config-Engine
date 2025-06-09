@@ -1,9 +1,10 @@
+from dotenv import load_dotenv
 import pynetbox
 import json
 import os
 
-NETBOX_URL = os.getenv('NETBOX_URL', 'http://localhost:8080')
-NETBOX_TOKEN = os.getenv('NETBOX_TOKEN', 'your_netbox_token_here')
+NETBOX_URL = os.environ['NETBOX_URL']
+NETBOX_TOKEN = os.environ['NETBOX_TOKEN']
 
 nb = pynetbox.api(NETBOX_URL, token=NETBOX_TOKEN)
 
